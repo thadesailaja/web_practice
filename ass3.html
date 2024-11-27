@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        .great-grand-parent{
+            background: linear-gradient(45deg,yellow,orange,red,green,blue);
+            width: 400px;
+            height: 300px;
+            position: relative;
+            left: 20px;
+            top:10px;
+        }
+        .grand-parent{
+            background: linear-gradient(45deg,red,green,blue);
+            width: 350px;
+            height: 250px;
+            position: relative;
+            left:20px;
+            top:10px;
+        }
+        .parent{
+            background: linear-gradient(45deg,green,blue);
+            width: 300px;
+            height: 200px;
+            position: relative;
+            left:20px;
+            top:10px;
+        }
+        .child{
+            background: linear-gradient(45deg,yellow,orange,red);
+            width: 250px;
+            height: 150px;
+            position: relative;
+            left:20px;
+            top:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="great-grand-parent">
+        <div class="grand-parent">
+            <div class="parent">
+                <div class="child">
+                    <h1>Absolute</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

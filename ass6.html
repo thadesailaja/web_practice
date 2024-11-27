@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GRID</title>
+    <style>
+        .container{
+            width:500px;
+            height: 350px;
+            border: 5px solid black;
+            border-radius: 5px;
+            display: grid;
+            gap: px;
+            grid-template-columns: repeat(3,auto);
+            background-color: black;
+            
+        }
+        .s{
+            text-align: center;
+            border-radius: 10px;
+        }
+       .child1{
+        background-color: red;
+        color: white;
+        grid-column: 1/4;
+        grid-row: 1/2;
+       }
+       .child2
+       {
+        background-color: orange;
+        color: white;
+        grid-column: 1/4;
+        grid-row: 2/3;
+       }
+       .child3
+       {
+        background-color: green;
+        color: white;
+        grid-column: 1/2;
+        grid-row: 3/5;
+        width: 100px;
+       }
+       .child4
+       {
+        background-color: yellow;
+        color: brown;
+        grid-column: 2/3;
+        grid-row: 3/5;
+        width: 300px;
+       }
+       .child5
+       {
+        background-color: green;
+        color: white;
+        grid-column: 3/4;
+        grid-row: 3/5;
+        width: 100px;
+       }
+       .child6{
+        background-color: red;
+        color: white;
+        grid-column: 1/4;
+        
+        
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child1 s">HEADER</div>
+        <div class="child2 s">NAVBAR</div>
+        <div class="child3 s">SIDE</div>
+        <div class="child4 s">MAIN</div>
+        <div class="child5 s">SIDE</div>
+        <div class="child6 s">FOOTER</div>
+    </div>
+</body>
+</html>
